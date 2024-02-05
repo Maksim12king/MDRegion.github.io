@@ -1,0 +1,31 @@
+*{                             
+    margin: 0;
+}
+.footer{
+    text-align: center;
+    background: white;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.footer .row{
+    width: 100%;
+    margin: 1% 1%;
+    color: black;
+    font-size: 20px;
+}
+.footer .row a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.footer .row a:hover{
+    color: #c81616;
+}
+.footer .row ul{
+    width: 100%;
+}
+.footer .row ul li{
+display: inline-block;
+}
+

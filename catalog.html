@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+            <div class="header-line">
+                <div class="header-logo">
+                    <img src="logo.png" width="80" height="88" alt="">
+                </div>
+    
+                <div class="nav">
+                    <a class="nav-item" href="index.html">Главная</a>
+                    <a class="nav-item" href="about.html">О нас</a>
+                    <a class="nav-item" href="catalog.html">Товары</a>
+                    <a class="nav-item" href="contacts.html">Где мы?</a>
+                </div>
+                <div class="phone">
+                    <div class="number"><a class="num" href="#">+7-800-555-76-76</a>
+                    </div>
+                    <div class="phone-text">Есть вопросы? Звоните!
+                    </div>
+                </div>  
+            </div>
+            </div>
+        
+        </div>  
+    </header>
+    <main>
+         
+         <div class="main_content">
+        
+
+            <div class="popular_prds">
+               <div class="prds_title"><h1>Каталог товаров</h1></div>
+                <div class="prds_filter">
+                    <h2>Фильтр каталога</h2>
+                    <form class="prds_filter_form">
+                        <div>
+                        <h4>Цена:</h4><br>
+                        от<input type="text" name="min_price" id="min_price">
+                        до<input type="text" name="max_price" id="max_price">
+                        </div>
+                        <br>
+                        <div>
+                            <h4>Тип:</h4>
+                            <div class="form_piece">
+                                <label for="met">Поисковая техника</label>
+                                <input type="radio" id="met" name="fltr_type" value="met" checked />
+                            </div>
+                            
+                            <div class="form_piece">
+                                <label for="dr">Прочее</label>
+                                <input type="radio" id="dr" name="fltr_type" value="dr" />
+                            </div>
+                            
+                        </div>
+                        <br>
+                        <div>
+                            <h4>Товар:</h4>
+                            <div class="form_piece">
+                                <label for="metal">металлоискатели</label>
+                                <input type="checkbox" id="metal" name="metal" checked/>
+                            </div>
+                            
+                            <div class="form_piece">
+                                <label for="pin">пинпоинтеры</label>
+                                <input type="checkbox" id="pin" name="pin" />
+                            </div>
+                            <div class="form_piece">
+                                <label for="kat">катушки</label>
+                                <input type="checkbox" id="kat" name="kat" />
+                            </div>
+                            
+                            <div class="form_piece">
+                                <label for="lop">лопаты</label>
+                                <input type="checkbox" id="lop" name="lop" />
+                            </div>
+                            
+                        </div>
+                        <br>
+                        <input type="submit" name="filter_submit" id="filter_submit">
+                    </form>
+                </div>
+                <div class="prds_placement">
+                    <div class="prds_piece">
+                        <a class="prds_link" href="product.html">
+                        <div class="prds_image"><img src="Garrett ACE 150.jpg"></div>
+                        </a>
+                        <div class="prds_price">РУБ. 8 999</div>
+                        <div class="prds_discr">Garrett ACE 150</div>
+                        
+                    </div>
+                    <div class="prds_piece">
+                        <a class="prds_link" href="product.html">
+                        <div class="prds_image"><img src="BOOLAT MD4030P.jpg"></div></a>
+                        <div class="prds_price">РУБ. 13 500</div>
+                        <div class="prds_discr">BOOLAT MD4030P</div>
+                    </div>
+                    <div class="prds_piece">
+                        <a class="prds_link" href="product.html">
+                        <div class="prds_image"><img src="Gold Hunter Basic.jpg"></div></a>
+                        <div class="prds_price">РУБ. 2000</div>
+                        <div class="prds_discr">Gold Hunter Basic</div>
+                    </div>
+                    <div class="prds_piece">
+                        <div class="prds_image"><img src="Tianxun MD-700.jpg"></div>
+                        <div class="prds_price">РУБ. 1500</div>
+                        <div class="prds_discr">Tianxun MD-700</div>
+                    </div>
+                    <div class="prds_piece">
+                        <a class="prds_link" href="product.html">
+                        <div class="prds_image"><img src="F70.jpg"></div></a>
+                        <div class="prds_price">РУБ. 3000</div>
+                        <div class="prds_discr">F70</div>
+                    </div>
+                    <div class="prds_piece">
+                        <a class="prds_link" href="product.html">
+                        <div class="prds_image"><img src="lopa.jpg"></div></a>
+                        <div class="prds_price">РУБ. 999</div>
+                        <div class="prds_discr">Lopata-12</div>
+                    </div>
+                    
+                </div>
+            </div>
+    
+            
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="row">
+            <a href="https://t.me/maksimkuimov1"><img src="telegram.jpg" width="30px"></a>
+            <a href="https://vk.com/id388256835"><img src="vk.jpg" width="30px"></a>
+            </div>
+            
+            <div class="row">
+            <ul>
+            <li><a href="index.html">главная</a></li>
+            <li><a href="about.html">о нас</a></li>
+            <li><a href="catalog.html">товары</a></li>
+            <li><a href="contacts.html">где мы?</a></li>
+            </ul>
+            </div>
+            <div class="row">
+                2023 @ MDRegion, +7-800-555-76-76 
+            </div>
+            </div>
+        </footer>
+</body>
+</html>
